@@ -1,0 +1,134 @@
+.darkMode, .darkMode:hover {
+    color: #fff;
+    background-color: #37383F;
+}
+
+.lightMode, .lightMode:hover {
+    color: #000;
+    background-color: #fff;
+}
+.bg-carousel {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.square {
+    width: 3em;
+    height: 3em;
+    margin: 0.5em;
+    border-radius: 5px;
+}
+.text-vertical-align {
+    vertical-align: middle;
+    font-size: 1em;
+}
+.articleText {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+    line-height: 4em;
+}
+
+.articleLink {
+    color: black;
+}
+.articleLink:hover {
+    color: rgb(92, 92, 92);
+}
+
+.darkMode .articleLink {
+    color: white;
+}
+.darkMode .articleLink:hover {
+    color: rgb(92, 92, 92);
+}
+
+.btnModal {
+    background-color: black;
+    color: white;
+    border: black solid 1px!important;
+}
+
+.darkMode .btnModal {
+    background-color: white;
+    color: black;
+    border: black solid 1px!important;
+}
+
+.darkMode .btnModal:hover {
+    background-color: black;
+    color: white;
+    border: white solid 1px!important;
+}
+
+.btnModal:hover {
+    background-color: white;
+    color: black;
+    border: black solid 1px!important;
+}
+
+.btn-bg {
+    background-color: rgb(208, 209, 209);
+}
+.btn-bg:hover {
+    background-color: rgb(158, 158, 158);
+}
+.text-color {
+    color: rgba(0,0,0,.55);
+}
+
+.darkMode .modal-content {
+background-color: #292a2f;
+color: white;
+}
+
+.changeColor {
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(57, 57, 57, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.darkMode .changeColor {
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgb(48, 48, 48) !important;
+}
+.btnPage{
+    background-color: black;
+    color: white;
+    border: 1px black solid !important;
+}
+
+.btnPage:hover{
+    background-color: white;
+    color: black;
+}
+
+.btnPage .darkMode:hover{
+    background-color: white;
+    color: black;
+}
+
+.form-check-input {
+    border-color: black !important;
+    background-color: white;
+}
+
+.form-check-input:checked {
+    background-color: black !important;
+}
+
+@media screen and (max-width: 767px) {
+    .square {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    .articleText {
+        line-height: 2.5em;
+    }
+}

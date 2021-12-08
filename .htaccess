@@ -1,0 +1,12 @@
+RewriteEngine on
+
+#redirection erreur 404
+ErrorDocument 404 /RSS/404.php
+
+RewriteRule ^accueil$  index.php 
+RewriteRule ^parametres$  views/parameters.php 
+RewriteRule ^Emploi$  views/pages.php?sujet=1
+RewriteRule ^Entreprise$  views/pages.php?sujet=2
+RewriteRule ^Industrie$  views/pages.php?sujet=3
+RewriteRule ^Economie-Francaise$  views/pages.php?sujet=4
+RewriteRule ^Economie$  views/pages.php?sujet=5 [L]
